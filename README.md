@@ -1,6 +1,6 @@
 # stopwatch  
 
-<img src="/interface.img">
+<img src="interface.png">
 
 ## Apresentação:  
 Intuito de fazer um cronômetro simples, usando algumas linguagens web, a fim de praticar os conhecimentos adquiridos nas linguagens e poder contribuir com minha comunidade.  
