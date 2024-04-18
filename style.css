@@ -1,0 +1,246 @@
+/* TELA-INICIAL */
+
+body {
+    position: center;
+    width: 1440px;
+    height: 1024px;
+    
+    background: linear-gradient(180deg, #5B5E76 0%, #101C3A 30%);
+}
+
+
+header {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+}
+
+/* Home */
+#home {
+position: absolute;
+width: 65px;
+height: 43px;
+left: 120px;
+top: 64px;
+color: #FFFFFF;
+}
+
+/* Portfolio */
+#portfolio {
+position: absolute;
+width: 122px;
+height: 43px;
+left: 305px;
+top: 61px;
+color: #FFFFFF;
+}
+
+/* GitHub */
+#github {
+position: absolute;
+width: 122px;
+height: 43px;
+left: 547px;
+top: 64px;
+color: #FFFFFF;
+}
+
+/* Instagram */
+#instagram {
+position: absolute;
+width: 122px;
+height: 43px;
+left: 1031px;
+top: 62px;
+color: #FFFFFF;
+}
+
+/* Linkedin */
+#linkedin {
+position: absolute;
+width: 122px;
+height: 43px;
+left: 789px;
+top: 64px;
+color: #FFFFFF;
+}
+
+/* laisdev */
+#logo-laisdev {
+position: absolute;
+width: 100px;
+height: 40px;
+left: 1273px;
+top: 64px;
+font-family: 'Nico Moji';
+color: #FFFFFF;
+}
+
+
+
+/* Cronômetro */
+h2 {
+position: absolute;
+width: 244px;
+height: 52px;
+left: calc(50% - 244px/2);
+top: 281px;
+
+font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 53px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+/* 00 : 00 : 00 */
+.time {
+position: absolute;
+width: 1036px;
+height: 200px;
+left: calc(50% - 1036px/2);
+top: calc(50% - 200px/2 + 0.5px);
+
+font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 200px;
+line-height: 158px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+/* Feito por @laisdev */
+footer {
+position: absolute;
+width: 250px;
+height: 37px;
+left: calc(50% - 250px/2);
+top: 945px;
+
+font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+/* Pausar */
+.parar {
+position: absolute;
+width: 122px;
+height: 25px;
+left: 299px;
+top: 729px;
+
+font-family: 'JetBrains Mono';
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+
+color: #FFFFFF;
+background-color: #101C3A;
+border: 3px solid #FFFFFF;
+
+box-sizing: border-box;
+width: 250px;
+height: 100px;
+left: calc(50% - 250px/2 - 3px);
+top: 692px;
+border-radius: 50px;
+transition: all 0.5s ease;
+}
+
+.parar:hover{
+    transform: scale(1.2);
+}
+
+/* Iniciar */
+.iniciar {
+position: absolute;
+width: 122px;
+height: 25px;
+left: 656px;
+top: 729px;
+
+font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+color: #FFFFFF;
+
+box-sizing: border-box;
+width: 250px;
+height: 100px;
+left: calc(50% - 250px/2 + 354px);
+top: 692px;
+background-color: #101C3A;
+border: 3px solid #FFFFFF;
+border-radius: 50px;
+
+transition: all 0.5s ease;
+}
+
+.iniciar:hover{
+    transform: scale(1.2);
+}
+
+/* Zerar */
+.resetar {
+position: absolute;
+width: 122px;
+height: 25px;
+left: 1013px;
+top: 729px;
+
+font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+
+color: #FFFFFF;
+box-sizing: border-box;
+
+width: 250px;
+height: 100px;
+left: calc(50% - 250px/2 - 360px);
+top: 692px;
+background-color: #101C3A;
+border: 3px solid #FFFFFF;
+border-radius: 50px;
+
+transition: all 0.5s ease;
+}
+
+.resetar:hover{
+    transform: scale(1.2);
+}
+
+/* Line 1 */
+hr {
+position: absolute;
+width: 1500px;
+height: 0px;
+left: calc(50% - 1500px/2);
+top: 900px;
+
+border: 1px solid #FFFFFF;
+}

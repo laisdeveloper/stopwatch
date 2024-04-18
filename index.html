@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Cronometro</title>
+        <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <header>
+        <nav>
+            <a href="./home.html" id="home">Home</a>
+            <a href="./portfolio.html" id="portfolio">Portfolio</a>
+            <a href="https://github.com/laisdeveloper" id="github">GitHub</a>
+            <a href="https://www.linkedin.com/in/laisdev" id="linkedin">Linkedin</a>
+            <a href="https://www.instagram.com/htmlais" id="instagram">Instagram</a>
+            <a href="./home.html" id="logo-laisdev">laisdev</a>
+        </nav>
+    </header>
+
+    <body>
+
+        <main>
+            <h2>Cronômetro</h2>
+            <section class="time">
+                <span class="minute">00</span> :
+                <span class="second">00</span> :
+                <span class="milisecond">00</span>
+            </section>
+            <section class="button">
+                <button onclick="iniciar()" class="iniciar">INICIAR</button>
+                <button onclick="parar()" class="parar">PARAR</button>
+                <button onclick="resetar()" class="resetar">RESETAR</button>
+            </section>
+        </main>
+                
+        <hr>
+        
+        <footer>
+            <span>Feito por @laisdev. <br>Todos os direitos reservados. 2024.</span>
+        </footer>
+
+        <script src="scripts/main.js"></script>
+    </body>
+</html>
