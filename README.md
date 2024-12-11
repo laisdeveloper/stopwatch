@@ -1,4 +1,4 @@
-# stopwatch  
+# Stopwatch / Cronometro
 
 <img src="interface.png">
 
@@ -8,7 +8,10 @@ Intuito de fazer um cronômetro simples, usando algumas linguagens web, a fim de
 ## Linguagens utilizadas:  
 - HTML  
 - CSS  
-- JavaScript  
+- JavaScript
+
+## Hospedagem
+- Voce pode visualizar e testar em: [GitHub Pages](https://laisdeveloper.github.io/stopwatch/)
 
 ## Nivel de experiência:  
 Inicialmente, 0% em todas, porém com o tempo fui aprendendo e fazendo modificações no proprio arquivo.  
