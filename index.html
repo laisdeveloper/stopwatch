@@ -1,45 +1,40 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title>Cronometro</title>
-        <link href="styles/style.css" rel="stylesheet" type="text/css" />
-    </head>
-
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
     <header>
         <nav>
-            <a href="./home.html" id="home">Home</a>
-            <a href="./portfolio.html" id="portfolio">Portfolio</a>
-            <a href="https://github.com/laisdeveloper" id="github">GitHub</a>
-            <a href="https://www.linkedin.com/in/laisdev" id="linkedin">Linkedin</a>
-            <a href="https://www.instagram.com/htmlais" id="instagram">Instagram</a>
-            <a href="./home.html" id="logo-laisdev">laisdev</a>
+            <a href="./home.html" id="home" aria-label="Página inicial">Home</a>
+            <a href="./portfolio.html" id="portfolio" aria-label="Portfólio">Portfolio</a>
+            <a href="https://github.com/laisdeveloper" id="github" aria-label="Perfil no GitHub">GitHub</a>
+            <a href="https://www.linkedin.com/in/laisdev" id="linkedin" aria-label="Perfil no LinkedIn">Linkedin</a>
+            <a href="https://www.instagram.com/laistech" id="instagram" aria-label="Perfil no Instagram">Instagram</a>
+            <a href="home.html" id="logo-laisdev" aria-label="Logo da Laisdev">laisdev</a>
         </nav>
     </header>
+    <main>
+        <h2>Cronômetro</h2>
+        <section id="time">
+            <span id="minute">00</span> :
+            <span id="second">00</span> :
+            <span id="milisecond">00</span>
+        </section>
+        <section class="botoes">
+            <button onclick="iniciar()" class="botao">INICIAR</button>
+            <button onclick="parar()" class="botao">PARAR</button>
+            <button onclick="resetar()" class="botao">RESETAR</button>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <span>Feito por @laisdev. <br>Todos os direitos reservados. 2024.</span>
+    </footer>
 
-    <body>
-
-        <main>
-            <h2>Cronômetro</h2>
-            <section class="time">
-                <span class="minute">00</span> :
-                <span class="second">00</span> :
-                <span class="milisecond">00</span>
-            </section>
-            <section class="button">
-                <button onclick="iniciar()" class="iniciar">INICIAR</button>
-                <button onclick="parar()" class="parar">PARAR</button>
-                <button onclick="resetar()" class="resetar">RESETAR</button>
-            </section>
-        </main>
-                
-        <hr>
-        
-        <footer>
-            <span>Feito por @laisdev. <br>Todos os direitos reservados. 2024.</span>
-        </footer>
-
-        <script src="scripts/main.js"></script>
-    </body>
+    <script src="main.js" defer></script>
+</body>
 </html>
